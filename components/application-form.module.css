@@ -1,0 +1,287 @@
+.home1 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-8xs) var(--padding-xl) 0;
+}
+.home3 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+}
+.home5 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-8xs) var(--padding-xl) 0;
+}
+.home7 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home6,
+.homeFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-7xs) var(--padding-xl) 0;
+}
+.home9 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.frameDiv,
+.home8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-6xl) var(--padding-xl) 0;
+}
+.badgeLogoWhite {
+  width: 148px;
+  height: 149px;
+  position: relative;
+  object-fit: cover;
+}
+.contactInfoFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 0;
+}
+.home11 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-mid) var(--padding-xl) 0;
+}
+.home13 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-9xs) var(--padding-xl) 0;
+}
+.home15 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home14 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+}
+.home17 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home16 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-9xs) var(--padding-xl) 0;
+}
+.home19 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home18 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+}
+.homeFrames,
+.proGlobalLogo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.homeFrames {
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-9xl);
+}
+.proGlobalLogo {
+  width: 1614px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.copyright {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  opacity: 0.3;
+}
+.gorillaAgency {
+  color: var(--color-gray-100);
+}
+.createdByGorillaContainer,
+.proglobalAllRightsReserved {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.rotationAxis {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-darkslategray-200);
+}
+.termsPrivacy {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.transformMatrix {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.applicationForm,
+.legalNoticesFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.legalNoticesFrame {
+  align-self: stretch;
+  height: 39px;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  color: var(--color-dimgray-300);
+}
+.applicationForm {
+  width: 1740px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-52xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-gotham);
+}
+@media screen and (max-width: 1725px) {
+  .homeFrames {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .transformMatrix {
+    flex-wrap: wrap;
+  }
+  .legalNoticesFrame {
+    height: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .applicationForm {
+    gap: var(--gap-52xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .applicationForm {
+    gap: var(--gap-52xl);
+  }
+}

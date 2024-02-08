@@ -1,0 +1,240 @@
+.potential,
+.profit {
+  color: var(--color-orangered);
+}
+.unleashYourPotentialContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 280px;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.joinTheNext {
+  width: 741.7px;
+  height: 80px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.line {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.line,
+.text2,
+.text3 {
+  border-radius: var(--br-6xs);
+}
+.text2 {
+  height: 56px;
+  width: 350px;
+  position: relative;
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.text3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.5px;
+  right: 0;
+  bottom: 0.5px;
+  left: 0;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.discoverTheDifference {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.buttonChild {
+  height: 11.3px;
+  width: 11.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 5.7px);
+  right: -0.1px;
+  object-fit: contain;
+}
+.bUtton,
+.button,
+.rectangle,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl) var(--padding-8xl) var(--padding-xl) 0;
+  position: relative;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.bUtton,
+.rectangle,
+.text {
+  max-width: 100%;
+}
+.bUtton {
+  width: 350px;
+  border-radius: var(--br-6xs);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: var(--gap-24xl);
+  font-size: var(--font-size-base);
+}
+.rectangle,
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle {
+  align-self: stretch;
+  gap: var(--gap-33xl);
+}
+.text {
+  flex: 1;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-width: 511px;
+}
+.badgeLogoWhite1 {
+  position: absolute;
+  top: -0.05px;
+  left: -0.2px;
+  width: 603.1px;
+  height: 603.1px;
+  object-fit: cover;
+}
+.text5 {
+  position: absolute;
+  top: 133.2px;
+  left: 0;
+  border: 1px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+  width: 643.3px;
+  height: 444.3px;
+}
+.blackmanTransparent1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 65.9px;
+  max-height: 100%;
+  width: 644.3px;
+  object-fit: cover;
+  z-index: 1;
+}
+.textGroup {
+  position: absolute;
+  top: 16.85px;
+  left: 59px;
+  width: 710.2px;
+  height: 636.2px;
+  z-index: 1;
+}
+.text4 {
+  height: 653px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.textParent,
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.textWrapper {
+  width: 769px;
+  min-width: 769.4px;
+}
+.textParent {
+  width: 1740px;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-125xl);
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-gotham);
+}
+@media screen and (max-width: 1725px) {
+  .textWrapper {
+    flex: 1;
+  }
+  .textParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .textParent {
+    gap: var(--gap-125xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .unleashYourPotentialContainer {
+    font-size: var(--font-size-25xl);
+    line-height: 56px;
+  }
+  .bUtton {
+    flex-wrap: wrap;
+    gap: var(--gap-24xl);
+  }
+  .text,
+  .textWrapper {
+    min-width: 100%;
+  }
+  .textParent {
+    gap: var(--gap-125xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .unleashYourPotentialContainer {
+    font-size: var(--font-size-14xl);
+    line-height: 42px;
+  }
+  .joinTheNext {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+  .text1 {
+    gap: var(--gap-13xl);
+  }
+  .rectangle {
+    gap: var(--gap-33xl);
+  }
+  .textParent {
+    gap: var(--gap-125xl);
+  }
+}

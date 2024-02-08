@@ -1,0 +1,1215 @@
+.missionStatementIcon,
+.theProblem {
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+}
+.missionStatementIcon {
+  align-self: stretch;
+  overflow: hidden;
+  max-height: 100%;
+}
+.theProblem {
+  margin: 0;
+  width: 975px;
+  font-size: inherit;
+  line-height: 130px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.frameContainingEmailAddress {
+  height: 5px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-chocolate-100);
+  z-index: 2;
+}
+.theCoachingIndustry {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameContainingEmailAddress1 {
+  height: 5px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 2;
+}
+.applyNowBtnWithArrow,
+.socialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+}
+.socialMediaIcons {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+  font-size: var(--font-size-111xl);
+}
+.whenItComes {
+  height: 68px;
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.streetAddressInputField {
+  width: 1284px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-200);
+}
+.atProglobalBusiness,
+.joinProglobalAnd,
+.ourApproachIs,
+.thisIsWhere {
+  height: 90px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  z-index: 2;
+}
+.atProglobalBusiness {
+  width: 1540px;
+  color: var(--color-darkslategray-300);
+  text-align: center;
+  max-width: 100%;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.joinProglobalAnd,
+.ourApproachIs,
+.thisIsWhere {
+  align-self: stretch;
+}
+.logoAndTagline {
+  width: 1540px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  color: var(--color-darkslategray-300);
+}
+.whiteBackgroundRectangle {
+  width: 350px;
+  margin: 0 !important;
+  right: -51.5px;
+  bottom: 0;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.contactProGlobalBusinessAd,
+.followUsOnSocialMedia,
+.whiteBackgroundRectangle {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-6xs);
+}
+.followUsOnSocialMedia {
+  left: 0;
+  border: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+  width: 100%;
+}
+.contactProGlobalBusinessAd {
+  width: 350px;
+  margin: 0 !important;
+  right: -51.5px;
+  bottom: 0;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.discoverTheDifference {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.parentFrameChild {
+  height: 11.3px;
+  width: 11.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 5.9px);
+  right: -0.1px;
+  object-fit: contain;
+}
+.parentFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  position: relative;
+  gap: var(--gap-base);
+  z-index: 2;
+}
+.arrow,
+.arrowChild,
+.bUtton,
+.contactInfoChild {
+  border-radius: var(--br-6xs);
+  border: 1px solid var(--color-orangered);
+}
+.bUtton {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-24xl) var(--padding-xl)
+    var(--padding-23xl);
+  position: relative;
+  z-index: 2;
+}
+.arrow,
+.arrowChild,
+.contactInfoChild {
+  box-sizing: border-box;
+}
+.arrowChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.arrow,
+.contactInfoChild {
+  width: 350px;
+  position: relative;
+  max-width: 100%;
+}
+.arrow {
+  height: 56px;
+}
+.contactInfoChild {
+  align-self: stretch;
+  display: none;
+  z-index: 1;
+}
+.learnMore {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contactInfoItem {
+  height: 11.3px;
+  width: 11.3px;
+  position: absolute;
+  margin: 0 !important;
+  right: 130.4px;
+  bottom: 22.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.bUtton1,
+.bUttonParent,
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.contactInfo {
+  width: 700px;
+  border-radius: var(--br-6xs);
+  border: 1px solid var(--color-orangered);
+  align-items: center;
+  padding: 0;
+  position: relative;
+  gap: var(--gap-60xl);
+  max-width: 234%;
+  flex-shrink: 0;
+}
+.bUtton1,
+.bUttonParent {
+  align-items: flex-start;
+}
+.bUtton1 {
+  width: 299px;
+  border-radius: var(--br-6xs);
+  border: 1px solid var(--color-orangered);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  color: var(--color-orangered);
+}
+.bUttonParent {
+  padding: 0 var(--padding-xl) var(--padding-37xl);
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.frameIcon,
+.vector {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.frameIcon {
+  left: -0.5px;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.vector {
+  height: 1681px;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.frameChild {
+  width: 530px;
+  height: 378px;
+  position: relative;
+  background-color: var(--color-black);
+  box-shadow: 0 5px 25.1px rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.theCredibilityCrisis {
+  align-self: stretch;
+  position: relative;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 1;
+}
+.textArea {
+  width: 252.5px;
+  height: 1.5px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.theCredibilityCrisisParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  flex-shrink: 0;
+}
+.theBusinessCoaching {
+  height: 240px;
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent,
+.submit {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.submit {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.rectangleParent {
+  flex: 0.9132;
+  background-color: var(--color-black);
+  box-shadow: 0 5px 25.1px rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-silver-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-16xl) var(--padding-3xs) var(--padding-24xl)
+    var(--padding-15xl);
+  gap: var(--gap-smi);
+  min-width: 397px;
+  z-index: 2;
+}
+.facebookAppSymbol,
+.frameItem {
+  height: 378px;
+  position: relative;
+  max-width: 100%;
+}
+.facebookAppSymbol {
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 397px;
+  z-index: 2;
+}
+.frameItem {
+  width: 530px;
+  background-color: var(--color-black);
+  box-shadow: 0 5px 25.1px rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  display: none;
+}
+.frame,
+.talkersVsDoers {
+  position: relative;
+  z-index: 1;
+}
+.talkersVsDoers {
+  align-self: stretch;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.frame {
+  width: 212.4px;
+  height: 1.5px;
+  background-color: var(--color-orangered);
+}
+.frameWrapper,
+.talkersVsDoersParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.talkersVsDoersParent {
+  width: 380px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.theIndustryIs {
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  display: inline-block;
+  z-index: 1;
+}
+.image,
+.rectangleGroup {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 0.8679;
+  background-color: var(--color-black);
+  box-shadow: 0 5px 25.1px rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-silver-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-16xl) var(--padding-15xl) var(--padding-84xl);
+  gap: var(--gap-smi);
+  min-width: 397px;
+  z-index: 2;
+}
+.image {
+  width: 1700px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-lgi);
+  gap: var(--gap-16xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.frameInner {
+  width: 530px;
+  height: 340px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.logoFrame,
+.oneSizeFits {
+  display: flex;
+  max-width: 100%;
+}
+.oneSizeFits {
+  width: 380px;
+  position: relative;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logoFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow1 {
+  height: 1.5px;
+  width: 196.8px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.rectangle {
+  align-self: stretch;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs) 0;
+  box-sizing: border-box;
+}
+.manyCoachesOffer {
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleContainer {
+  width: 530px;
+  background-color: var(--color-white);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-16xl) var(--padding-46xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  z-index: 2;
+}
+.frameIcon1,
+.frameIcon2 {
+  height: 340px;
+  width: 530px;
+  position: absolute;
+  margin: 0 !important;
+  top: -67.8px;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameIcon1 {
+  right: 132px;
+}
+.frameIcon2 {
+  left: 130px;
+}
+.frameChild1,
+.rectangleDiv {
+  height: 928.3px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.frameChild1 {
+  width: 530px;
+  height: 340px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+}
+.digitalDisconnect,
+.input {
+  display: flex;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.digitalDisconnect {
+  width: 380px;
+  position: relative;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-items: center;
+  z-index: 1;
+}
+.input {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  width: 228.3px;
+  height: 1.6px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.manyCoachingModels {
+  align-self: stretch;
+  height: 158.9px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.buttonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-300);
+}
+.frameChild2,
+.groupDiv {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupDiv {
+  flex: 1;
+  background-color: var(--color-white);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-16xl) var(--padding-62xl);
+  gap: var(--gap-9xs);
+  min-width: 397px;
+  z-index: 2;
+}
+.frameChild2 {
+  width: 530px;
+  height: 340px;
+  position: relative;
+  background-color: var(--color-black);
+  box-shadow: 0 5px 25.1px rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-silver-100);
+  display: none;
+}
+.theBlameGame,
+.theBlameGameWrapper {
+  display: flex;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.theBlameGame {
+  width: 380px;
+  position: relative;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-items: center;
+  z-index: 1;
+}
+.theBlameGameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aLackOf,
+.frameChild3 {
+  position: relative;
+  z-index: 1;
+}
+.frameChild3 {
+  width: 189.2px;
+  height: 1.6px;
+  background-color: var(--color-orangered);
+}
+.aLackOf {
+  align-self: stretch;
+  height: 158.9px;
+  line-height: 30px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rectangleParent2 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.rectangleParent1 {
+  flex: 1;
+  background-color: var(--color-black);
+  box-shadow: 0 5px 25.1px rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-19xl) var(--padding-13xl) var(--padding-62xl)
+    var(--padding-16xl);
+  gap: var(--gap-9xs);
+  min-width: 397px;
+  max-width: 100%;
+  z-index: 2;
+  color: var(--color-white);
+}
+.frameChild4 {
+  width: 530px;
+  height: 340px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.badCoachingCreates {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 1;
+}
+.group {
+  width: 426.4px;
+  height: 1.5px;
+  position: relative;
+  background-color: var(--color-orangered);
+  max-width: 100%;
+  z-index: 1;
+}
+.badCoachingCreatesBadCoachParent,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.badCoachingCreatesBadCoachParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.coachesThemselvesOften {
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  z-index: 1;
+}
+.frameDiv,
+.rectangleParent3 {
+  flex: 1;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent3 {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-22xl) var(--padding-16xl) var(--padding-52xl);
+  gap: var(--gap-smi);
+  min-width: 397px;
+  z-index: 2;
+}
+.frameDiv {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: var(--padding-262xl) var(--padding-112xl) var(--padding-262xl)
+    var(--padding-111xl);
+  gap: var(--gap-16xl);
+  min-height: 931px;
+}
+.linkedinFill,
+.socialMediaIconsParent,
+.text {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: -272px;
+}
+.linkedinFill,
+.socialMediaIconsParent {
+  flex-direction: column;
+  align-items: center;
+}
+.linkedinFill {
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+}
+.socialMediaIconsParent {
+  padding: var(--padding-222xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  z-index: 1;
+  margin-top: -214px;
+}
+.rectangleIcon {
+  height: 217.2px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 2;
+}
+.badgeLogoWhite {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-117xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -214px;
+}
+.lineIcon {
+  width: 100%;
+  height: calc(100% - 164.3px);
+  position: absolute;
+  margin: 0 !important;
+  top: -0.6px;
+  right: 0.5px;
+  bottom: 164.9px;
+  left: -0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoRectangle {
+  height: 5px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.discoverTheDifference1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.logoRectangle1 {
+  height: 5px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.contactInfoContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-items: center;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+}
+.contactInfoContainer {
+  width: 956px;
+  align-items: flex-start;
+}
+.applicationProcessFrame,
+.rectangleContainer1 {
+  position: absolute;
+  margin: 0 !important;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.applicationProcessFrame {
+  height: 48px;
+  width: 48px;
+  top: 313.9px;
+  left: -0.1px;
+}
+.rectangleContainer1 {
+  height: 65.5px;
+  width: 65.5px;
+  top: 95.6px;
+  right: 0;
+}
+.frameIcon3 {
+  position: absolute;
+  top: 0.4px;
+  left: -0.5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.fi483054Icon {
+  position: absolute;
+  top: 313.9px;
+  left: 575.5px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  z-index: 2;
+}
+.contactProBackgroundRectang {
+  height: 675px;
+  width: 1200px;
+  position: relative;
+  max-width: 100%;
+}
+.arrowVector,
+.lineParent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.arrowVector {
+  width: 1715px;
+  flex-direction: row;
+  padding: 0 var(--padding-217xl);
+}
+.lineParent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-131xl) 0 0 var(--padding-105xl);
+  gap: var(--gap-41xl);
+  min-height: 1299px;
+  margin-top: -214px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.subscribeFrameIcon,
+.subscribeFrameIcon1 {
+  align-self: stretch;
+  width: 640px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 450px;
+  max-width: 100%;
+}
+.subscribeFrameIcon1 {
+  z-index: 1;
+}
+.applyNowButton1 {
+  width: 1921px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.newsletterSubscriptionForm {
+  align-self: stretch;
+  width: 640px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 450px;
+  max-width: 100%;
+  margin-left: -1280px;
+}
+.component1,
+.subscribeNewsletter {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 1;
+  margin-top: -214px;
+}
+.subscribeNewsletter {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.applyNowButton,
+.contactUsBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.applyNowButton {
+  width: 1931px;
+  justify-content: flex-start;
+  padding: 0;
+  max-width: 101%;
+}
+.contactUsBox {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-110xl) 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-gotham);
+}
+@media screen and (max-width: 1725px) {
+  .image {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .applyNowBtnWithArrow {
+    flex-wrap: wrap;
+  }
+  .frameDiv {
+    padding: var(--padding-273xl) var(--padding-46xl) var(--padding-164xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .arrowVector {
+    padding-left: var(--padding-99xl);
+    padding-right: var(--padding-99xl);
+    box-sizing: border-box;
+  }
+  .lineParent {
+    padding-left: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .applyNowButton1 {
+    flex-wrap: wrap;
+  }
+  .contactUsBox {
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .theProblem {
+    font-size: var(--font-size-33xl);
+    line-height: 78px;
+  }
+  .theCoachingIndustry {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+  .applyNowBtnWithArrow {
+    gap: var(--gap-21xl);
+  }
+  .contactInfo {
+    gap: var(--gap-60xl);
+    justify-content: center;
+  }
+  .bUttonParent,
+  .contactInfo {
+    flex-wrap: wrap;
+  }
+  .facebookAppSymbol,
+  .rectangleGroup,
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .image {
+    gap: var(--gap-16xl);
+  }
+  .rectangleContainer {
+    width: calc(100% - 40px);
+  }
+  .groupDiv,
+  .rectangleParent1,
+  .rectangleParent3 {
+    min-width: 100%;
+  }
+  .frameDiv {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .discoverTheDifference1 {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+  .frameGroup {
+    gap: var(--gap-20xl);
+  }
+  .arrowVector {
+    padding-left: var(--padding-40xl);
+    padding-right: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+  .lineParent {
+    gap: var(--gap-41xl);
+    padding-left: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .contactUsBox {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theProblem {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .theCoachingIndustry {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .whenItComes {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .bUtton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contactInfo {
+    gap: var(--gap-60xl);
+  }
+  .theCredibilityCrisis {
+    font-size: var(--font-size-base);
+    line-height: 34px;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-222xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .talkersVsDoers {
+    font-size: var(--font-size-base);
+    line-height: 34px;
+  }
+  .rectangleGroup {
+    padding-top: var(--padding-222xl);
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .badCoachingCreates,
+  .digitalDisconnect,
+  .oneSizeFits,
+  .theBlameGame {
+    font-size: var(--font-size-base);
+    line-height: 34px;
+  }
+  .badCoachingCreates {
+    line-height: 24px;
+  }
+  .badgeLogoWhite,
+  .frameDiv {
+    padding-bottom: var(--padding-100xl);
+    box-sizing: border-box;
+  }
+  .badgeLogoWhite {
+    padding-bottom: var(--padding-69xl);
+  }
+  .discoverTheDifference1 {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .arrowVector {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .lineParent {
+    gap: var(--gap-41xl);
+  }
+}

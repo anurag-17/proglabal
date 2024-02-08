@@ -1,0 +1,548 @@
+.lastNameInput,
+.theDifference {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.theDifference {
+  margin: 0;
+  height: 94px;
+  font-size: inherit;
+  line-height: 130px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.lastNameInput {
+  height: 5px;
+  background-color: var(--color-orangered);
+}
+.firstNameInput {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.weDeliverWhat {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 26.1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.firstNameInputChild {
+  align-self: stretch;
+  height: 5px;
+  position: relative;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.firstNameInput1 {
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.frameGroupWithText,
+.proGlobalBusinessAdvisorsL {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.proGlobalBusinessAdvisorsL {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+  font-size: var(--font-size-17xl);
+}
+.frameGroupWithText {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-26xl);
+}
+.exploreTheProglobal {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  text-align: center;
+  z-index: 1;
+}
+.frameChild,
+.phoneInput {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.phoneInput {
+  width: 1206px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-35xl);
+}
+.frameChild {
+  width: 1700px;
+  height: 760px;
+  position: relative;
+  border: 1px solid var(--color-dimgray-200);
+  display: none;
+}
+.builtByCoaches {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+  z-index: 2;
+}
+.textContent {
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.businessCoaching {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.subscribeFormChild {
+  width: 380.1px;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-orangered);
+  max-width: 100%;
+  z-index: 2;
+}
+.subscribeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.inTheRealm {
+  margin: 0;
+  line-height: 30px;
+}
+.at {
+  line-height: 40px;
+}
+.proglobalWeDont {
+  line-height: 30px;
+}
+.atProglobalWeDontJustTa {
+  margin: 0;
+}
+.inTheRealmContainer {
+  align-self: stretch;
+  height: 310px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  z-index: 2;
+}
+.subscribeFormParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.bUttonChild {
+  width: 350px;
+  margin: 0 !important;
+  top: -0.4px;
+  right: -50.5px;
+  bottom: 0.4px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.bUttonChild,
+.dividerLine,
+.footerLinks {
+  height: 100%;
+  position: absolute;
+  border-radius: var(--br-6xs);
+}
+.footerLinks {
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+  width: 100%;
+}
+.dividerLine {
+  width: 350px;
+  margin: 0 !important;
+  top: -0.4px;
+  right: -50.5px;
+  bottom: 0.4px;
+  background-color: var(--color-orangered);
+  z-index: 1;
+}
+.discoverTheDifference {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.applyButtonChild {
+  height: 11.3px;
+  width: 11.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1.6px;
+  right: -0.2px;
+  object-fit: contain;
+}
+.applyButton,
+.bUtton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.applyButton {
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl) 0 0;
+  gap: var(--gap-base);
+}
+.bUtton {
+  border-radius: var(--br-6xs);
+  border: 1px solid var(--color-orangered);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-24xl) var(--padding-xl)
+    var(--padding-22xl);
+}
+.learnMore {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.bUttonItem {
+  height: 11.3px;
+  width: 11.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 22px;
+  right: 79.8px;
+  object-fit: contain;
+}
+.bUtton1 {
+  border-radius: var(--br-6xs);
+  border: 1px solid var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-88xl) var(--padding-xl)
+    var(--padding-60xl);
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameContainer,
+.missionStatement {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.missionStatement {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-19xl);
+  min-width: 545px;
+}
+.frameItem {
+  width: 596px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameGroup,
+.rectangleParent {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1500px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-45xl);
+  font-size: var(--font-size-17xl);
+}
+.rectangleParent {
+  align-self: stretch;
+  border: 1px solid var(--color-dimgray-200);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-127xl) var(--padding-xl) var(--padding-73xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.applicationBoxChild {
+  height: 111px;
+  width: 380px;
+  position: relative;
+  background-color: var(--color-orangered);
+  box-shadow: 0 0 110px rgba(0, 0, 0, 0.12);
+  display: none;
+  max-width: 100%;
+}
+.businessCoaching1 {
+  position: relative;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 3;
+}
+.applicationBox,
+.applicationBoxItem {
+  width: 380px;
+  box-shadow: 0 0 110px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.applicationBox {
+  margin: 0 !important;
+  position: absolute;
+  top: -48px;
+  left: 250px;
+  background-color: var(--color-orangered);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-24xl)
+    var(--padding-xl);
+  white-space: nowrap;
+  z-index: 2;
+}
+.applicationBoxItem {
+  height: 111px;
+  position: relative;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-silver-200);
+  display: none;
+}
+.marketing {
+  position: relative;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 3;
+}
+.applicationBox1,
+.applicationBoxInner {
+  width: 380px;
+  background-color: var(--color-black);
+  box-shadow: 0 0 110px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.applicationBox1 {
+  margin: 0 !important;
+  position: absolute;
+  top: -48px;
+  left: calc(50% - 190px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-24xl) var(--padding-6xl) var(--padding-24xl)
+    var(--padding-xl);
+  z-index: 2;
+  color: var(--color-dimgray-200);
+}
+.applicationBoxInner {
+  height: 111px;
+  position: relative;
+  display: none;
+}
+.technology {
+  position: relative;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 3;
+}
+.applicationBox2 {
+  width: 381px;
+  margin: 0 !important;
+  position: absolute;
+  top: -48px;
+  right: 249px;
+  background-color: var(--color-black);
+  box-shadow: 0 0 110px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-24xl) var(--padding-3xl) var(--padding-24xl)
+    var(--padding-xl);
+  max-width: 100%;
+  z-index: 2;
+  color: var(--color-dimgray-200);
+}
+.emailAddressInput,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  font-size: var(--font-size-lg);
+}
+.emailAddressInput {
+  width: 1740px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-58xl);
+  box-sizing: border-box;
+  gap: var(--gap-122xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-111xl);
+  color: var(--color-white);
+  font-family: var(--font-gotham);
+}
+@media screen and (max-width: 1325px) {
+  .proGlobalBusinessAdvisorsL {
+    flex-wrap: wrap;
+  }
+  .frameItem {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .emailAddressInput {
+    gap: var(--gap-122xl);
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .theDifference {
+    font-size: var(--font-size-33xl);
+    line-height: 78px;
+  }
+  .weDeliverWhat {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+  .proGlobalBusinessAdvisorsL {
+    gap: var(--gap-20xl);
+  }
+  .frameGroupWithText {
+    gap: var(--gap-26xl);
+  }
+  .phoneInput {
+    gap: var(--gap-35xl);
+  }
+  .businessCoaching {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+  .missionStatement {
+    flex-wrap: wrap;
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .frameGroup {
+    gap: var(--gap-45xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-76xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .emailAddressInput {
+    gap: var(--gap-122xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theDifference {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .businessCoaching,
+  .weDeliverWhat {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .businessCoaching {
+    line-height: 25px;
+  }
+  .bUtton,
+  .bUtton1 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bUtton1 {
+    padding-left: var(--padding-xl);
+  }
+  .frameContainer {
+    gap: var(--gap-19xl);
+  }
+  .frameGroup {
+    gap: var(--gap-45xl);
+  }
+  .emailAddressInput {
+    gap: var(--gap-122xl);
+  }
+}
